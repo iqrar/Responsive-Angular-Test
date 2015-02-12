@@ -1,0 +1,19 @@
+<section class="container">
+
+  <h1>Bundesländer</h1>
+   
+   <ul id="states">
+    <li ng-repeat="item in persons.stateList">
+      <a href="{{item.url}}">
+      <p>{{item.name}}</p>
+       <h5>{{item.schoolCount}} Schulen</h5>
+       </a>
+    </li>
+  </ul> 
+  
+  <ul id="persons" >
+  <li ng-repeat= "(key, value) in persons.personIndexCounts" ng-if= "value">
+  <span class="key" ng-hide= "!value" >{{key}}<span>
+  </li>
+  </ul> 
+</section>
