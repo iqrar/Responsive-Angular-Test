@@ -1,3 +1,4 @@
+/*global styles*/
 
 body {
     font-family: arial, sans-serif;
@@ -49,7 +50,14 @@ ul#persons li {
     padding:5px 0;
 }
 
+/*desktop styles*/
+
 @media only screen and (min-width:800px) {
+
+  .container {
+    width:90%;
+    margin: 0 auto;
+}
 
   h1{
     width:90.6%;
@@ -63,16 +71,9 @@ ul#persons li {
     margin-right:1%;
     display:inline-block;
   }
-
- .container {
-    width:90%;
-    margin: 0 auto;
-
-  }
-
 }
 
-
+/*tablet styles*/
 
 @media only screen and (max-width:800px) {
 
@@ -80,7 +81,6 @@ ul#persons li {
     padding: 0px;
     padding: 0px;
     width:100%;
-
   }
 
   h1 {
@@ -94,13 +94,11 @@ ul#persons li {
     margin-right:1%;
     display:inline-block;
   }
-
 }
 
-
-
+/*mobile styles*/
 @media only screen and (max-width:500px) {
- 
+  
   .container {
     padding: 0px;
     padding: 0px;
@@ -111,13 +109,13 @@ ul#persons li {
     width:100%;
   }
 
-   ul#states li{ 
+  ul#states li{ 
     border: 10px solid #ddd;
     width:100%;
     margin-bottom:1%;
   }
-
 }
+
 
 
 
