@@ -1,4 +1,5 @@
 # responsiveAngular
+Testing Angularjs Skills 
 
 Please create a HTML file (using „index.html“ as a starting point), which loads data from "bundesland.json" using JavaScript.
 The loaded data has to be rendered as in the example "bundesland-dimension.png"
